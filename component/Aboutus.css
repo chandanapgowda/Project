@@ -1,0 +1,96 @@
+.container{
+    min-width: 100%;
+    display: flex;
+    position: relative;
+    background: #fbead385;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+   }
+  
+  .aboutus-image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: center;
+    padding: 0;
+    margin: 0;
+  
+  }
+  .aboutus-image-img{
+    width: 40%;
+    position: relative;
+    height: 600px; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    margin: 0;
+    display: block;
+  }
+  .aboutus-image-img_img{
+    width: 100%;
+    top: 14%;
+    left: 20%;
+    position: absolute;
+    padding: 5px;
+    border: 10px solid #fff;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .aboutus-image-img_img img{
+    width:100%; 
+    display: block;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    filter: brightness(80%);
+    height: 400px;
+    max-height: 400px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    
+   }
+  .aboutus-container{
+    background: #d64045;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2rem;
+    color: #fff !important;
+    text-align: start;
+    padding: 15px;
+    gap:25px;
+    box-sizing: border-box; 
+    margin: 0;
+  }
+  
+  .about_heading{
+    font-size: 2.5rem;
+    width: 70%;
+    text-align: center;
+     padding: 0;
+    box-sizing: border-box; 
+    margin: 0;
+    display: inline-block;
+    margin-top: 10px;
+   }
+  .about_para{
+    font-size: 1.4rem;
+    width: 100%;
+     margin-left: 10%; 
+    text-align: justify;
+    box-sizing: border-box;
+     display: block; 
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  } 

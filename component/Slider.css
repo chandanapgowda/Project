@@ -1,0 +1,20 @@
+#slider {
+    overflow: hidden;
+  }
+  
+  #slider figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* width: 300%;  */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width:100%;
+    gap:0;
+  }
+  
+  #slider figure img {
+    width: 100%;
+    height: auto;
+    float: left;
+  }

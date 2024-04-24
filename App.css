@@ -1,0 +1,13 @@
+
+.button{
+    background-color: blue !important;
+    color: aliceblue;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+}
+.toggle{
+    border: none;
+    border-radius: 2px;
+}

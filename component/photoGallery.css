@@ -1,0 +1,176 @@
+.our_location_section{
+    width: 85%;
+      padding: 2rem 1rem;
+      margin: 1rem auto;
+      position: relative;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      box-sizing: border-box;
+  }
+  .our_service_container{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .our_location_container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  .title{        
+    font-size: 2.5rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Noto Serif', serif;
+      margin: 0 auto;
+      border-bottom: 4px solid #B5302F;
+      width: fit-content;
+      color: #B5302F;
+      font-weight: 600;
+      padding: 0;
+  
+  }
+  .categories_section_main_tank{
+    display: flex;
+      width: 85%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem auto;
+      gap: 2rem;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .gallery-container{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: 200px 200px;
+      grid-template-columns: 1fr 2fr 1fr 2fr;
+      grid-template-areas: "galleryImage1 galleryImage2 galleryImage3 galleryImage4"
+                           "galleryImage6 galleryImage2 galleryImage5 galleryImage4";
+      grid-gap: 10px;
+      padding: 0;
+      box-sizing: border-box;
+      margin: 0;
+  
+  }
+  .prod-card-wrap1{
+    grid-area: galleryImage1;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .product-img{
+    display: block;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%!important;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+  }
+  .prod-card-wrap2{
+    grid-area: galleryImage2;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .prod-card-wrap3{
+    grid-area:galleryImage3 ;
+    width: 100%;
+  }
+  .prod-card-wrap4{
+    grid-area: galleryImage4;
+    width: 100%;
+  }
+  .prod-card-wrap5{
+    grid-area: galleryImage5;
+    width: 100%;
+  }
+  .prod-card-wrap6{
+    grid-area: galleryImage6;
+    width: 100%;
+  }
+  .insta_dog{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #fbead3;
+  }
+  .our_location_sections{
+    width: 50%;
+  }
+  .instagram-banner{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    gap: 2rem;
+  }
+  .instagram-banner-wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .image-container{
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  padding: 0;
+  }
+  .instagram-banner-wrapper .image-container img{
+    display: block;
+    border: 0;
+    width: 100%;
+    max-height: 330px;
+    object-fit: fill;
+    opacity: .7;
+    border-radius: 20px;
+  }
+  .text-container1{
+    width: 100%;
+      height: auto;
+      position: absolute;
+      top: 45%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #B5302F;
+      padding: 0;
+  }
+  .text{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+  }
+  .insta-icon{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+  }
+  .insta-image{
+    display: flex;
+    justify-content: center;
+  
+  }
